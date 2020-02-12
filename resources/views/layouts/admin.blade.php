@@ -73,6 +73,7 @@
                         @else
                             <li class="nav-item dropdown">
                                 {{--dropdown-toggle トグルボタン、なくてもOK、入れると矢印ついてくる--}}
+                                {{--href="#" トップページに移行--}}
                                 <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                     {{ Auth::user()->name }} <span class="caret"></span>
                                 </a>
